@@ -32,3 +32,11 @@ by code that does what the pseudo-code suggests.
         # Return the result from the previous loop:
         
         return 'XXX'
+
+            for k in range(len(sequence)):
+        even = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+        if k == even[0] or even [1] or even [2] or even[3] or even[4] or even[5]:
+
+            total = total + sequence[k]
+
+    return total
